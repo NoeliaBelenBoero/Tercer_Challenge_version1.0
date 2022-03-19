@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="repositive.css">
+    <link rel="shortcut icon" href="logo_iniciales.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="./imagenes/logo_iniciales.jpg">
+            <h7>Marcelo Lofiego</h7>
+        </div>
+        <nav class="menu_navegacion">
+            <ul class="lista">
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentacion">
+            <div class="clase-presentacion">
+                <div class="clase__presentacion--texto">
+                    <h1>Hola, mi nombre es Marcelo Alejandro Lofiego y construyo páginas web</h1>
+                    <h3>Soy formado en la Universidad Nacional de Mar del Plata y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                </div>
+                <div class="clase__presentacion--imagen">
+                    <img class="mi-foto" src="./imagenes/mi.jpg">
+                </div>
+            </div>
+            <div class="redes-sociales">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100072876366697"><img class="facebook" src="./imagenes/facebook.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/NoeliaBelenBoero"><img class="github" src="./imagenes/github.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/marcelo-lofiego-40832a22a/"><img class="linkedin" src="./imagenes/linkedin.png"></a>
+                    </li>
+                    <li>
+                        <a href="Currículum.pdf"><img class="curriculum" src="./imagenes/curriculum.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>&#128616 Sobre Mi</h2>
+            <p>Nací el 23 de septiembre de 1979 en la ciudad de Mar del Plata, República Argentina, actualmente recido en dicha ciudad.
+                <p>Tabajo en AXION ENERGY desde hace 20 años; Vivo con mi señora y mis dos hijas. Me encuentro cursando la carrera de técnico en programación en el instituto TECLAB, y además participo del proyecto ORACLE ONE en ALURA LATAM.</p>
+                <p>Me gusta cocinar y ver peliculas de ciencia ficción.</p>
+                <img class="mi-firma" src="./imagenes/MiFirma.jpg">
+        </section>
+
+        <section id="skills">
+            <h2>&#128187 Skills</h2>
+            <div class="logos-skills">
+                <img class="logo-css" src="./imagenes/logoCss.png">
+                <img class="logo-html" src="./imagenes/logoHtml5.png">
+                <img class="logo-js" src="./imagenes/logoJs.png">
+            </div>
+
+        </section>
+
+        <section id="hobbies">
+            <h2>&#128627 Hobbies</h2>
+            <div class="jobis">
+                <img class="bici" src="./imagenes/andarEnBici.png">
+                <img class="cocina" src="./imagenes/cocinar.png">
+                <img class="deportes" src="./imagenes/mirarDeportes.png">
+            </div>
+            <div class="titulos-jobis">
+                <h4 class="b">Andar en bici</h4>
+                <h4 class="c">Cocinar</h4>
+                <h4 class="d">Mirar deportes</h4>
+            </div>
+        </section>
+
+        <section id="formacion">
+            <h2>&#128642 Formación</h2>
+            <div class="establecimientos">
+                <img class="unmdp" src="./imagenes/teclab.jpg">
+                <img class="teclab" src="./imagenes/unmdp.png">
+                <img class="alura" src="./imagenes/aluraLatam.jpg">
+            </div>
+
+        </section>
+
+        <section id="proyectos">
+            <h2>&#128605 Proyectos</h2>
+            <div class="proyectos-img">
+                <ul class="ul-imagenes">
+                    <li>
+                        <h6>&#128600 Encriptador de texto</h6><br>
+                        <img class="encriptador" src="./imagenes/encriptador.png"></li>
+                    <li>
+                        <h6>&#128600 Juego del ahorcado</h6><br>
+                        <img class="ahorcado" src="./imagenes/ahorcado.png"></li>
+                </ul>
+                <ul class="btn-repositorios">
+                    <li>
+                        <a href="https://github.com/NoeliaBelenBoero/primer-challenge"><input type="button" value="REPOSITORIO" class="repositorio-encriptador"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/NoeliaBelenBoero/segundo-challenge"><input type="button" value="REPOSITORIO" class="repositorio-ahorcado"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>&#128678 Contacto</h2>
+            <p>Si quieres contactarme, completa el siguiente formulario, me comunicaré contigo lo antes posible:</p>
+            <form class="form" action="https://formsubmit.co/ lofiegomarcelo20@gmail.com" method="post">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" name="name" class="input-padron" maxlength="50" required>
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" name="email" class="input-padron" required placeholder="email@dominio.com">
+                <label for="motivo">Motivo</label>
+                <textarea cols="70" rows="10" id="motivo" name="subject" class="input-padron" maxlength="300" required></textarea>
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+            <img class="img-contacto" src="./imagenes/contacto.jpg">
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="logo" src="./imagenes/logo_iniciales.jpg">
+        <h5>Desarrollado por Marcelo Alejandro Lofiego &copy 2022</h5>
+    </footer>
+    <script src="validacion.js"></script>
+</body>
+
+</html>

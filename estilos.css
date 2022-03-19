@@ -1,0 +1,403 @@
+            body {
+                font-family: 'Raleway', sans-serif;
+                background: linear-gradient(120deg, #0a2542, #c8fadd, #bd3c8c, rgb(231, 231, 98));
+                background-size: 200% 200%;
+                animation: BgGradient 3s ease infinite;
+            }
+            
+            @keyframes BgGradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            /* Menú de navegación*/
+            
+            .logo {
+                width: 5rem;
+            }
+            
+            .header {
+                z-index: 1;
+                position: fixed;
+                background: #000000;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+            
+            .container {
+                display: flex;
+                align-items: center;
+                margin-left: 2rem;
+            }
+            
+            .menu_navegacion .lista {
+                display: flex;
+                justify-content: space-around;
+                margin-right: 2rem;
+            }
+            
+            h7 {
+                color: #f5f5f5;
+            }
+            
+            li a {
+                padding-left: 2rem;
+                color: white;
+                text-decoration: none;
+            }
+            
+            .lista :hover {
+                transition: 0.5s;
+                text-decoration: underline;
+                color: orangered;
+                font-size: 20px;
+            }
+            /* Sección Presentación*/
+            
+            #presentacion {
+                width: 940px;
+                margin: 0 auto;
+                background: linear-gradient(white, #bebbbb);
+            }
+            
+            .clase-presentacion {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 8rem;
+                padding-left: 10%;
+                align-items: flex-start;
+            }
+            
+            h1 {
+                width: 80%;
+                font-size: 50px;
+                font-weight: bold;
+                text-align: left;
+                padding-left: 2rem;
+            }
+            
+            h3 {
+                width: 80%;
+                padding-top: 2rem;
+                text-align: left;
+                font-size: 25px;
+                padding-left: 2rem;
+            }
+            
+            .mi-foto {
+                width: 350px;
+                height: 350px;
+                border-radius: 100%;
+                padding-right: .5rem;
+            }
+            
+            .redes-sociales ul {
+                display: flex;
+                justify-content: center;
+                padding-top: 2rem;
+                padding-bottom: 3rem;
+            }
+            
+            .redes-sociales ul li :hover {
+                transform: scale(1.2);
+            }
+            
+            .redes-sociales ul li .facebook,
+            .github,
+            .linkedin,
+            .curriculum {
+                width: 20px;
+                height: 20px;
+                padding-right: 2rem;
+                transition: 1s all;
+            }
+            /* Sección Sobre Mi*/
+            
+            #sobre-mi {
+                padding-top: 6rem;
+                width: 940px;
+                margin: 0 auto;
+                background: linear-gradient(#bebbbb, rgb(205, 205, 219));
+                height: 400px;
+            }
+            
+            h2 {
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: underline;
+            }
+            
+            p {
+                padding-top: 2rem;
+                padding-left: 1rem;
+                font-size: 20px;
+            }
+            
+            .mi-firma {
+                width: 80px;
+                height: 80px;
+                align-items: center;
+                padding-top: 2rem;
+                padding-left: 40rem;
+            }
+            
+            #skills {
+                padding-top: 6rem;
+                width: 940px;
+                margin: 0 auto;
+                background-color: white;
+                height: 300px;
+            }
+            
+            .logos-skills {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 3rem;
+                text-align: center;
+            }
+            
+            .logo-css {
+                width: 35%;
+                height: 100%;
+            }
+            
+            .logo-html {
+                width: 20%;
+                height: 50%;
+            }
+            
+            .logo-js {
+                width: 33%;
+                height: 100%;
+            }
+            
+            #hobbies {
+                padding-top: 6rem;
+                width: 940px;
+                margin: 0 auto;
+                background: linear-gradient(white, rgb(221, 237, 250));
+                /*rgb(221, 237, 250);*/
+                height: 300px;
+            }
+            
+            .jobis {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 1rem;
+                text-align: center;
+            }
+            
+            .bici {
+                width: 20%;
+                height: 30%;
+                padding-right: 5rem;
+            }
+            
+            .cocina {
+                width: 20%;
+                height: 30%;
+            }
+            
+            .deportes {
+                width: 20%;
+                height: 30%;
+                padding-left: 5rem;
+            }
+            
+            .titulos-jobis {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+            
+            h4 {
+                padding-top: 0.5rem;
+                font-weight: bold;
+            }
+            
+            #formacion {
+                padding-top: 6rem;
+                width: 940px;
+                margin: 0 auto;
+                background: linear-gradient(white, rgb(210, 243, 210));
+                height: 300px;
+            }
+            
+            .establecimientos {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 2rem;
+                text-align: center;
+            }
+            
+            .unmdp {
+                width: 20%;
+                height: 30%;
+                padding-right: 5rem;
+            }
+            
+            .teclab {
+                width: 20%;
+                height: 30%;
+            }
+            
+            .alura {
+                width: 20%;
+                height: 30%;
+                padding-left: 5rem;
+            }
+            
+            #proyectos {
+                padding-top: 6rem;
+                width: 940px;
+                text-align: center;
+                margin: 0 auto;
+                background-color: rgb(210, 243, 210);
+                height: 900px;
+                position: relative;
+            }
+            
+            .proyectos-img .ul-imagenes {
+                flex-direction: column;
+                padding-top: 4rem;
+                padding-left: 2rem;
+            }
+            
+            h6 {
+                padding-top: 5rem;
+                text-align: center;
+                font-size: 25px;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+            
+            .encriptador {
+                width: 300px;
+                height: 250px;
+                box-shadow: 30px 30px 30px black;
+            }
+            
+            .ahorcado {
+                width: 300px;
+                height: 250px;
+                box-shadow: 30px 30px 30px black;
+            }
+            
+            .btn-repositorios {
+                position: absolute;
+                right: 25%;
+                top: 40%;
+            }
+            
+            .repositorio-encriptador {
+                width: 100%;
+                padding: 15px 10px;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                background: orangered;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 15px 15px 15px black;
+                transition: 1s all;
+                cursor: pointer;
+            }
+            
+            .repositorio-ahorcado {
+                margin-top: 20rem;
+                width: 100%;
+                padding: 15px 10px;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                background: green;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 15px 15px 15px black;
+                transition: 1s all;
+                cursor: pointer;
+            }
+            
+            #contacto {
+                padding-top: 6rem;
+                width: 940px;
+                margin: 0 auto;
+                background-color: rgb(207, 207, 136);
+                height: 600px;
+                position: relative;
+            }
+            
+            .form {
+                padding-left: 1rem;
+                margin: 40px 0;
+            }
+            
+            .form label {
+                display: block;
+                font-size: 20px;
+                margin: 0 0 10px;
+            }
+            
+            .input-padron {
+                display: block;
+                margin: 0 0 20px;
+                padding: 10px 25px;
+                width: 40%;
+                background: #f5f5f5;
+                border: transparent;
+            }
+            
+            .img-contacto {
+                position: absolute;
+                left: 600px;
+                top: 40%;
+                width: 30%;
+                height: 40%;
+                box-shadow: 30px 30px 30px #000000;
+                border-radius: 5%;
+                transition: 1s all;
+            }
+            
+            .img-contacto:hover {
+                transform: scale(1.2);
+            }
+            
+            .enviar {
+                width: 40%;
+                padding: 15px 0;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                background: blue;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 15px 15px 15px black;
+                transition: 1s all;
+                cursor: pointer;
+            }
+            
+            .enviar:hover {
+                background: rgb(4, 4, 32);
+                transform: scale(1.2);
+            }
+            
+            .footer {
+                background: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            h5 {
+                color: aliceblue;
+            }

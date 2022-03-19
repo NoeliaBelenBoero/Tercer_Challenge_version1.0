@@ -1,0 +1,135 @@
+@media (max-width:768px) {
+    body {
+        width: 100%;
+    }
+    h7 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        color: rgb(226, 121, 82);
+    }
+    .logo {
+        display: none;
+    }
+    .header {
+        background: rgb(8, 8, 49);
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu_navegacion {
+        justify-content: space-around;
+    }
+    .menu_navegacion .lista {
+        flex-direction: column;
+    }
+    li {
+        padding-bottom: 0.5rem;
+    }
+    #presentacion {
+        padding-top: 100px;
+    }
+    .clase-presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1,
+    h3 {
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        padding-left: 170px;
+    }
+    .mi-foto {
+        padding-top: 2rem;
+        padding-right: 100px;
+        border-radius: 0%;
+        box-shadow: none;
+    }
+    #sobre-mi {
+        flex-direction: column;
+        justify-content: center;
+        height: 520px;
+    }
+    p {
+        text-align: center;
+        width: 40%;
+        padding-left: 270px;
+    }
+    #skills {
+        height: 1200px;
+    }
+    .logos-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-css,
+    .logo-js {
+        padding-top: 20px;
+        width: 50%;
+    }
+    .logo-html {
+        padding-top: 20px;
+        width: 30%;
+    }
+    #hobbies {
+        height: 1200px;
+    }
+    .jobis {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .bici,
+    .cocina,
+    .deportes {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2rem;
+        width: 30%;
+    }
+    .titulos-jobis {
+        opacity: 0;
+    }
+    #formacion {
+        height: 1200px;
+    }
+    .establecimientos {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .unmdp,
+    .teclab,
+    .alura {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2rem;
+        width: 30%;
+    }
+    #contacto {
+        height: 700px;
+    }
+    .form {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-top: 2rem;
+        padding-left: 300px;
+    }
+    .img-contacto {
+        display: none;
+    }
+    .footer {
+        height: 200px;
+        width: 940px;
+        flex-direction: column;
+    }
+}
